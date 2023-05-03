@@ -17,7 +17,7 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = 29698700
+    API_ID = "29698700"
     API_HASH = "c08d5af866792c7f96e2de2b35ad5a34"
     BOT_TOKEN = "6005321257:AAFytdaPgqN8Q6ECsB9V9dQKnTGk2DB5q1M"
     DATABASE_URL = "postgres://yoqdgotu:D2BaXqX7e4VBZQRrLoGzevz3UqFiQPf9@lallah.db.elephantsql.com/yoqdgotu"
