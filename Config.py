@@ -17,11 +17,11 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = "29698700"
-    API_HASH = "c08d5af866792c7f96e2de2b35ad5a34"
-    BOT_TOKEN = "6005321257:AAFytdaPgqN8Q6ECsB9V9dQKnTGk2DB5q1M"
-    DATABASE_URL = "postgres://yoqdgotu:D2BaXqX7e4VBZQRrLoGzevz3UqFiQPf9@lallah.db.elephantsql.com/yoqdgotu"
+    API_ID = '29698700'
+    API_HASH = 'c08d5af866792c7f96e2de2b35ad5a34'
+    BOT_TOKEN = '6005321257:AAFytdaPgqN8Q6ECsB9V9dQKnTGk2DB5q1M'
+    DATABASE_URL = 'postgres://yoqdgotu:D2BaXqX7e4VBZQRrLoGzevz3UqFiQPf9@lallah.db.elephantsql.com/yoqdgotu'
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "https://t.me/solotreee"
+    MUST_JOIN = 'https://t.me/solotreee'
     if MUST_JOIN.startswith("@solotreee"):
         MUST_JOIN = MUST_JOIN[1:]
